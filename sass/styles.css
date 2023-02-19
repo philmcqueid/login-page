@@ -1,0 +1,106 @@
+* {
+  font-family: "Josefin Sans";
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  padding: 20px;
+}
+body .container h1 {
+  font-size: 3rem;
+  color: white;
+  text-shadow: rgba(255, 255, 255, 0.73) 0px 0px 19px;
+  transition: 500ms;
+}
+body .container h1:hover {
+  text-shadow: rgb(255, 255, 255) 0px 0px 12px;
+}
+body .container .container-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body .container .container-form-inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+body .container .container-form-inputs label {
+  margin-bottom: 3px;
+}
+body .container .container-form-inputs input {
+  width: 300px;
+  height: 40px;
+  padding: 0 5px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: none;
+  outline: 0;
+}
+body .container .container-form-forgot-password {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+body .container .container-form-forgot-password a {
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+body .container .container-form-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 30px;
+}
+body .container .container-form-buttons button {
+  height: 40px;
+  width: 100%;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  transition: 500ms;
+  margin-bottom: 10px;
+  background-color: #051937;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+body .container .container-form-buttons button:hover {
+  background-color: #1B3A69;
+}
+body .container .container-form-social-media a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  width: 20px;
+}
+body .container .container-form-social-media a-iconify-icon {
+  font-size: 2rem;
+}
+body .container a {
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
